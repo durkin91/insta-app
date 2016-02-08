@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/core.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/components.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/colors.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/customizations.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script type="text/javascript" src="assets/js/plugins/loaders/pace.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/loaders/blockui.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script type="text/javascript" src="assets/js/plugins/visualization/echarts/echarts.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/ui/drilldown.js"></script>
+	<script type="text/javascript" src="assets/js/core/app.js"></script>
+	<script type="text/javascript" src="assets/js/charts/echarts/pies_donuts.js"></script>
+	<!-- /theme JS files -->
+
+</head>
+
+<body>
+
+	<!-- Main navbar -->
+	<div class="navbar navbar-inverse">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="index.html"><img src="assets/images/logo_light.png" alt=""></a>
+
+			<ul class="nav navbar-nav pull-right visible-xs-block">
+				<li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-tree5"></i></a></li>
+			</ul>
+		</div>
+
+		<div class="navbar-collapse collapse" id="navbar-mobile">
+			<ul class="nav navbar-nav">
+			</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+
+				<li class="dropdown dropdown-user">
+					<a class="dropdown-toggle" data-toggle="dropdown">
+						<span>Nikki Durkin</span>
+						<i class="caret"></i>
+					</a>
+
+					<ul class="dropdown-menu dropdown-menu-right">
+						<li><a href="#"><i class="icon-user-plus"></i> My profile</a></li>
+						<li><a href="#"><i class="icon-coins"></i> My balance</a></li>
+						<li><a href="#"><span class="badge badge-warning pull-right">58</span> <i class="icon-comment-discussion"></i> Messages</a></li>
+						<li class="divider"></li>
+						<li><a href="#"><i class="icon-cog5"></i> Account settings</a></li>
+						<li><a href="#"><i class="icon-switch2"></i> Logout</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- /main navbar -->
+
+
+	<!-- Page container -->
+	<div class="page-container">
+
+		<!-- Page content -->
+		<div class="page-content">
+
+			<!-- Main content -->
+			<div class="content-wrapper">
+
+				<!-- Header -->
+				<div class="panel page-header border-top-primary" style="background-color: #fff;">
+					<div class="page-header-content">
+						<div class="page-title">
+							<h5>
+								<i class="icon-stats-dots position-left"></i> <span class="text-semibold">@taleishabonoraa</span>
+							</h5>
+						</div>
+
+						<div class="heading-elements">
+							<form action="#" class="main-search">
+								<div class="input-group content-group" id="field-header">
+									<div class="has-feedback has-feedback-left">
+										<input type="text" class="form-control input-xlg" placeholder="Instagram Username">
+										<div class="form-control-feedback">
+											<i class="icon-instagram text-muted text-size-base"></i>
+										</div>
+									</div>
+
+									<div class="input-group-btn">
+										<button type="submit" class="btn btn-primary btn-xlg">Check Followers</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="breadcrumb-line" style="margin-bottom: 0; border-bottom: 0; box-shadow: none;">
+						<ul class="breadcrumb">
+							<li><a href="your_reports.html">Your Reports</a></li>
+							<li class="active">@taleishabonoraa</li>
+						</ul>
+					</div>
+				</div>
+				<!-- /Header -->
+
+
+				<!-- Content area -->
+				<div class="content">
+
+					<div class="row">
+						<div class="col-lg-3 col-md-6">
+							<div class="thumbnail no-padding">
+								<div class="thumb">
+									<img src="assets/images/taleishabonoraa.jpg" alt="">
+									<div class="caption-overflow">
+										<span>
+											<a href="assets/images/placeholder.jpg" class="btn bg-success-400 btn-icon btn-xs" data-popup="lightbox"><i class="icon-plus2"></i></a>
+											<a href="user_pages_profile.html" class="btn bg-success-400 btn-icon btn-xs"><i class="icon-link"></i></a>
+										</span>
+									</div>
+								</div>
+							
+					    	</div>
+						</div>
+
+						<div class="col-md-6">
+
+							<!-- Basic donut chart -->
+							<div class="panel panel-flat">
+
+								<div class="panel-body">
+									<img src="assets/images/echarts-demo-chart.png">
+								</div>
+							</div>
+							<!-- /basic donut chart -->
+
+						</div>
+
+						<div class="col-lg-3 col-md-6">
+							<div class="row">
+								<!-- Real Followers -->
+								<div class="col-md-6">
+									<div class="panel bg-teal-400">
+										<div class="panel-body">
+											<h3 class="no-margin">63,000</h3>
+											Real Followers
+											<div class="text-muted text-size-small">18%</div>
+										</div>
+
+										<div class="container-fluid">
+											<div id="members-online"></div>
+										</div>
+									</div>
+								</div>
+								<!-- /real followers -->
+
+								<!-- Fake Followers -->
+								<div class="col-md-6">
+									<div class="panel bg-pink-400">
+										<div class="panel-body">
+											<h3 class="no-margin">287,000</h3>
+											Fake Followers
+											<div class="text-muted text-size-small">82%</div>
+										</div>
+
+										<div class="container-fluid">
+											<div id="members-online"></div>
+										</div>
+									</div>
+								</div>
+								<!-- /fake followers -->
+							</div>
+
+							<div class="row">
+								<div class="panel panel-primary" id="our-process-panel">
+									<div class="panel-heading bg-primary">
+										<h6 class="panel-title">About Our Process</h6>
+									</div>
+
+									<div class="panel-body">
+										<p>When generating your report, we looked at all 350,000 of @taleishabonoraa's followers.</p>
+
+										<p>For each follower, we assessed a variety of criteria such as their number of posts, number of followers, number of following, recorded locations, engagement on their posts, and privacy settings on their account.</p>
+
+										<p>We then used this data to categorize followers as real or fake and/or unengaged.</p>
+
+										<p>Most accounts naturally posess at least a small amount of fake followers who were not paid for. If an account carried an unusually large percentage of fake followers, they were most likely paid for.</p>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+
+					<!-- Footer -->
+					<div class="footer text-muted">
+						&copy; 2015. <a href="#">Limitless Web App Kit</a> by <a href="http://themeforest.net/user/Kopyov" target="_blank">Eugene Kopyov</a>
+					</div>
+					<!-- /footer -->
+
+				</div>
+				<!-- /content area -->
+
+			</div>
+			<!-- /main content -->
+
+		</div>
+		<!-- /page content -->
+
+	</div>
+	<!-- /page container -->
+
+</body>
+</html>

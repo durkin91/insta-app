@@ -1,0 +1,16 @@
+
+/*--- Header ---*/
+#field-header {
+	width: 500px;
+}
+
+/*--- on My Report page ---*/
+.bg-red-400 {
+	background-color: rgba(213, 134, 121, 1);
+}
+
+#our-process-panel {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
