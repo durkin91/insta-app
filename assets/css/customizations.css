@@ -20,7 +20,7 @@
 }
 
 .border-top-primary {
-	border-top-color: ##1ac6ff;
+	border-top-color: #1ac6ff;
 }
 
 .text-green {
@@ -36,16 +36,30 @@
 	border-color: #1ac6ff;
 }
 
-.btn-primary:active:hover,
-.btn-primary.active:hover,
-.open > .dropdown-toggle.btn-primary:hover,
-.btn-primary:active:focus,
-.btn-primary.active:focus,
-.open > .dropdown-toggle.btn-primary:focus,
-.btn-primary:active.focus,
-.btn-primary.active.focus,
-.open > .dropdown-toggle.btn-primary.focus {
-  color: #fff;
+/*-- Labels ---*/
+.label-danger {
+  background-color: #F07267;
+  border-color: #F07267;
+}
+
+.label-success {
   background-color: #51D7BF;
   border-color: #51D7BF;
 }
+
+/*-- Text on Your Reports Page --*/
+a {
+  color: #333333;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #535353;
+  text-decoration: none;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
