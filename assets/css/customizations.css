@@ -9,6 +9,12 @@
 	background-color: rgba(213, 134, 121, 1);
 }
 
+.bg-blue {
+	background-color: #1ac6ff;
+	border-color: #1ac6ff;
+  	color: #fff;
+}
+
 #our-process-panel {
 	margin-right: 10px;
 	margin-left: 10px;
