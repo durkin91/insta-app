@@ -53,6 +53,32 @@
   border-color: #51D7BF;
 }
 
+/*-- Your Reports Page --*/
+
+.media-right {
+    vertical-align: middle;
+}
+
+.label-trillscore {
+    font-size: 14px;
+    border-color: #1ac6ff;
+    color: #1ac6ff;
+}
+
+.bg-success-400 {
+  background-color: #51D7BF;
+  border-color: #51D7BF;
+}
+
+.progress-bar-danger {
+  background-color: #F07267;
+  border-color: #F07267;
+}
+
+.progress {
+    margin-top: 4px;
+}
+
 /*-- Text on Your Reports Page --*/
 a {
   color: #333333;
