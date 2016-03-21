@@ -81,7 +81,7 @@
 					<div class="page-header-content">
 						<div class="page-title">
 							<h5>
-								<i class="icon-cog5 position-left"></i> <span class="text-semibold">Account Settings</span>
+								<i class="icon-cog5 position-left"></i> <span class="text-semibold">Payment Methods</span>
 							</h5>
 						</div>
 
@@ -108,8 +108,44 @@
 
 				<!-- Content area -->
 				<div class="content">
+                    
+                    <!-- Centered forms -->
+					<div class="row">
 
-					
+						<div class="col-md-4 col-md-offset-4">
+                            <div class="row">
+                                <div class="col-md-10 col-md-offset-1">
+                                    <div class="panel panel-flat">
+                                        <div class="panel-heading">
+                                            <h6 class="panel-title"><i class="icon-credit-card position-left"></i> Payment Methods</h6>
+                                            <div class="heading-elements">
+                                                <button type="button" class="btn btn-primary heading-btn"><i class="icon-add position-left"></i>Add New Card</button>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>**** **** **** 5467 <span class="label label-flat label-rounded border-grey text-grey-600 inline-label">Default Card</span></td>
+                                                        <td>
+                                                            <a href="#" data-toggle="modal" data-target="#remove_modal"><i class="icon-trash"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>**** **** **** 5467 <a href="#" data-toggle="modal" data-target="#make_default_modal" class="label label-primary label-rounded inline-label">Make Default</a></td>
+                                                        <td>
+                                                            <a href="#" data-toggle="modal" data-target="#remove_modal"><i class="icon-trash"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                </div>
+                            </div>
+						</div>
+					</div>
+					<!-- /form centered -->
 
 
 					<!-- Footer -->
@@ -119,6 +155,51 @@
 					<!-- /footer -->
 
 				</div>
+                    
+                    <!-- Remove modal -->
+					<div id="remove_modal" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h5 class="modal-title">Confirmation</h5>
+								</div>
+
+								<div class="modal-body">
+									You are about to delete this credit card. Are you sure?
+								</div>
+
+								<div class="modal-footer">
+									<button type="button" class="btn btn-primary" data-dismiss="modal">Delete This Card</button>
+									<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /remove modal -->
+                    
+                    <!-- Make Default Modal -->
+					<div id="make_default_modal" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h5 class="modal-title">Confirmation</h5>
+								</div>
+
+								<div class="modal-body">
+									Are you sure you want to make this credit card your default card?
+								</div>
+
+								<div class="modal-footer">
+									<button type="button" class="btn btn-primary" data-dismiss="modal">Confirm</button>
+									<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /Make default modal -->
+
 				<!-- /content area -->
 
 			</div>

@@ -42,6 +42,11 @@
 	border-color: #1ac6ff;
 }
 
+.btn-danger {
+    background-color: #F07267;
+    border-color: #F07267;
+}
+
 /*-- Labels ---*/
 .label-danger {
   background-color: #F07267;
@@ -51,6 +56,15 @@
 .label-success {
   background-color: #51D7BF;
   border-color: #51D7BF;
+}
+
+.label-primary {
+    background-color: #1ac6ff;
+	border-color: #1ac6ff;
+}
+
+.inline-label {
+    margin-left: 15px;
 }
 
 /*-- Your Reports Page --*/
