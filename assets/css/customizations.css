@@ -67,6 +67,11 @@
     margin-left: 15px;
 }
 
+.label-icon.label-flat {
+    padding: 6px 9px;
+    font-size: 18px;
+}
+
 /*-- Your Reports Page --*/
 
 .media-right {
